@@ -1,0 +1,45 @@
+<library path="nav2_rviz_plugins">
+
+  <class name="nav2_rviz_plugins/GoalTool"
+         type="nav2_rviz_plugins::GoalTool"
+         base_class_type="rviz_common::Tool">
+    <description>A tool used to specify the navigation goal pose.</description>
+  </class>
+
+  <class name="nav2_rviz_plugins/Navigation 2"
+         type="nav2_rviz_plugins::Nav2Panel"
+         base_class_type="rviz_common::Panel">
+    <description>The Nav2 rviz panel.</description>
+  </class>
+
+  <class name="nav2_rviz_plugins/ParticleCloud"
+         type="nav2_rviz_plugins::ParticleCloudDisplay"
+         base_class_type="rviz_common::Display">
+    <description>The Particle Cloud rviz display.</description>
+  </class>
+  <class name="nav2_rviz_plugins/WaypointFollower"
+         type="nav2_rviz_plugins::WaypointFollower"
+         base_class_type="rviz_common::Panel">
+    <description>Simple Waypoint Follower button panel</description>
+  </class>
+  <class name="nav2_rviz_plugins/MultiGoalTool"
+         type="nav2_rviz_plugins::MultiGoalTool"
+         base_class_type="rviz_common::Tool">
+    <description>Click multiple goals and send them to NavigateThroughPoses</description>
+  </class>
+  <class name="nav2_rviz_plugins/AutoLoopTool"
+         type="nav2_rviz_plugins::AutoLoopTool"
+         base_class_type="rviz_common::Tool">
+    <description>Auto loop goals tool</description>
+  </class>
+  <class name="nav2_rviz_plugins/AddTool"
+         type="nav2_rviz_plugins::AddTool"
+         base_class_type="rviz_common::Tool">
+    <description>Add goals</description>
+  </class>
+  <class name="nav2_rviz_plugins/AutoLoopPanel"
+         type="nav2_rviz_plugins::AutoLoopPanel"
+         base_class_type="rviz_common::Panel">
+    <description>Auto loop goals panel</description>
+  </class>
+</library>
